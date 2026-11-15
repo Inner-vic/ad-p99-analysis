@@ -1,0 +1,306 @@
+{
+  "schema": "ad-p99-source-repository-v1",
+  "version": "2026.11.04.archive1",
+  "files": {
+    ".gitattributes": {
+      "sha256": "292aa782a1288d320ddb20290893674a65c09f0f1aae882a4a1561c0185efe43",
+      "bytes": 86
+    },
+    ".github/workflows/source-checks.yml": {
+      "sha256": "713d27a7ccbbf434f964fe08404b95fcfce9bb95e40ae854933b3c625b0207fd",
+      "bytes": 535
+    },
+    ".gitignore": {
+      "sha256": "c44751d3068feea17c3d8a2e68060cb3c40acf47e695c7b94ed34929a7ba368b",
+      "bytes": 733
+    },
+    ".gitlab-ci.yml": {
+      "sha256": "a1f53df951ded9a666e2dca3e7f6aaf6654569e60223c3bf14b5ba2861ca15e3",
+      "bytes": 635
+    },
+    "CHANGELOG.md": {
+      "sha256": "1d7f764092e3570ddaa42b409e0dc89d27272b5f3f201bb3967905967db004b3",
+      "bytes": 256
+    },
+    "CONTRIBUTING.md": {
+      "sha256": "28fe9b101f4ee7282d5b2c985bb76107678b8a810e9e2d88027c9d62f9b950b5",
+      "bytes": 954
+    },
+    "PUBLICATION.md": {
+      "sha256": "0317cadbff2198d9e4080123106f0619c5d37a65c7babfdb1aca848eccbd8d01",
+      "bytes": 1094
+    },
+    "README.md": {
+      "sha256": "e0ae4870998b3976fee5b80ae3f025726a4275e4164c1093f40808d083df6d83",
+      "bytes": 5338
+    },
+    "SOURCE-MANIFEST.json": {
+      "sha256": "67b914357089e6db7f59f2b022d57113ccdeb4b7d091a123d75b4180eabf892e",
+      "bytes": 3392
+    },
+    "SOURCE-PROVENANCE.json": {
+      "sha256": "dcd7251918341e48cb093a714f086422d7965caf48f9ee018714ad1d30683c58",
+      "bytes": 2082
+    },
+    "docs/deployment.md": {
+      "sha256": "9e03ca6a3c16292fbfc99dc8d616bde817b3479675f168e1bc85448f0b078164",
+      "bytes": 3016
+    },
+    "docs/lark-asgard-integration.md": {
+      "sha256": "91aceaec4985843851be8138ee7c2c29a1c4cf53ff662006310cfde4576d4133",
+      "bytes": 8214
+    },
+    "docs/operations.md": {
+      "sha256": "f0a8d562588f59bfeec3a4ac4ed91dea6861bb1c30fecc104918fd64d11ca515",
+      "bytes": 1602
+    },
+    "docs/validation-results.json": {
+      "sha256": "7bd3974bd13b705d909a1cddce2a86f9ec0ba48d7ccb9082279eaf3204bd2573",
+      "bytes": 1037
+    },
+    "examples/asgard.settings.json.example": {
+      "sha256": "85c0ab21fe247b230f31a708cd5499b1410b5c0eac36ead9a570216d9a58377f",
+      "bytes": 935
+    },
+    "examples/cloud.settings.json.example": {
+      "sha256": "285c5f9f86c2ed10ef79697f899680caa428b67f9d0b5f030edfd2613e4d827a",
+      "bytes": 43
+    },
+    "examples/isolation.example.json": {
+      "sha256": "876379e9affaa9d1f2eb8f7fb9761446d86f580a714d660e5ea95d07f4ff4d28",
+      "bytes": 1066
+    },
+    "tools/Install-AuthMaintenance.ps1": {
+      "sha256": "6ff1a7303822dc218e36ab4d94c3fc9418d5a50dabbfe1f2f41d298992c5f773",
+      "bytes": 2166
+    },
+    "tools/check_public_source.py": {
+      "sha256": "bd75bfac5ddc85849ceb86853c4894f13cf32ca2800c6df2994e7b87cab4ac8b",
+      "bytes": 1355
+    },
+    "tools/check_repository.py": {
+      "sha256": "6f1d58529372363c4aa0036be6f33bf9aeac55aa99f5dd6a2c55d8f4a52a7ce2",
+      "bytes": 6437
+    },
+    "tools/initialize_lark_profiles.py": {
+      "sha256": "4ec2ccef108863f2db626259a7cd1f9a251493ea469feba6045b6b6985432f8a",
+      "bytes": 2047
+    },
+    "tools/lark_project.py": {
+      "sha256": "57522a08d7ee3f7dfd12dc194c7b34e4564fb710c7b111c20a068c7e1aee5322",
+      "bytes": 2929
+    },
+    "tools/prepare_workspace.py": {
+      "sha256": "4c38869acc879f40833f0e2deb49bbbbc7c3dff37c036bdd7604dd7b9754ea17",
+      "bytes": 3099
+    },
+    "tools/run_tests.py": {
+      "sha256": "a8fcc5cd2fc8118dec5203b40a033a58aa82a23fa7d5ddf398e4a2eb075718f6",
+      "bytes": 913
+    },
+    "tools/update_manifests.py": {
+      "sha256": "0a2ac063665a5edede48cb0c91f6a38f62cf907c9f4f2addb7614c00a8f9df12",
+      "bytes": 1433
+    },
+    "workspace/.agents/skills/ad-p99-analysis/SKILL.md": {
+      "sha256": "0c4acce877b808449975633bec7963e6cc71c9180ca8c1c7ee1663d4394de1a6",
+      "bytes": 10880
+    },
+    "workspace/.agents/skills/ad-p99-analysis/agents/openai.yaml": {
+      "sha256": "5ad830371b575fb64e17159b9fed108bf43a4f327b05a7e771c989573763aec2",
+      "bytes": 41
+    },
+    "workspace/.agents/skills/ad-p99-analysis/references/raw-data-investigation.md": {
+      "sha256": "1e358503a6b4f79e220edeed413b7af3a04c8662c993112c3b7a38db465f9e74",
+      "bytes": 8337
+    },
+    "workspace/.agents/skills/ad-p99-analysis/references/upstream-integration.md": {
+      "sha256": "86cdf5d9ed638638515799655e5bc15bbed2e9cf0d0033177218a4f56d1d2a2e",
+      "bytes": 6619
+    },
+    "workspace/.agents/skills/ad-p99-analysis/requirements.txt": {
+      "sha256": "6d12ff9b3bebc33a85936c779e3fbcbdace195838c2145cf98ddbd76c8d2157f",
+      "bytes": 52
+    },
+    "workspace/.agents/skills/ad-p99-analysis/scripts/ad_p99.py": {
+      "sha256": "cbfab4ed908784206b3244f4b6a255f335cea1bb81de4ac545a84d11e8eb5613",
+      "bytes": 35513
+    },
+    "workspace/.agents/skills/ad-p99-analysis/scripts/asgard_bridge.py": {
+      "sha256": "f24b5dbc44527d9d61c45da2ebac6b1522386f46a8b2af45478543c7540b5bb5",
+      "bytes": 7527
+    },
+    "workspace/.agents/skills/ad-p99-analysis/scripts/asgard_worker.py": {
+      "sha256": "f0e542cf51993bb96a01b9dbbbe4602b2309920329dc69dac431f2b5a6617731",
+      "bytes": 81489
+    },
+    "workspace/.agents/skills/ad-p99-analysis/scripts/check_environment.py": {
+      "sha256": "98be7d6f38929ca53ecf4a36f341b3f2e1d669986d79c98cfac3a3352d2be7cf",
+      "bytes": 5841
+    },
+    "workspace/.agents/skills/ad-p99-analysis/scripts/cloud_log_client.py": {
+      "sha256": "c4ab1e120852960a9c35bb165c7fa8f0a6a3fff71c63f689d6d007a9c30f451b",
+      "bytes": 23224
+    },
+    "workspace/.agents/skills/ad-p99-analysis/scripts/feishu_report.py": {
+      "sha256": "297db1385fdd043ef071e7f305852f01eddfa31db5e8266089ef33b40314a291",
+      "bytes": 6615
+    },
+    "workspace/.agents/skills/ad-p99-analysis/scripts/half_auto.py": {
+      "sha256": "75aa1e86e675d5a5d7617e0c2f929131cbd9f884f13801a8d76ede8716daecf7",
+      "bytes": 29413
+    },
+    "workspace/.agents/skills/ad-p99-analysis/scripts/lark_source.py": {
+      "sha256": "840f665447d62f9d5a45e61dd415e321883657c16e91d8e31a9039054a135dbc",
+      "bytes": 13290
+    },
+    "workspace/.agents/skills/ad-p99-analysis/scripts/performance_comparison.py": {
+      "sha256": "aafd21f1618a7c8e10f9fa872216244c263dddedd57f82e3a0d68255c7ecb3db",
+      "bytes": 17094
+    },
+    "workspace/.agents/skills/ad-p99-analysis/scripts/performance_log_source.py": {
+      "sha256": "b11089cc95b018ec418fdcca42b3095c6100c0ea46617267d8aaec549b41d386",
+      "bytes": 13213
+    },
+    "workspace/.agents/skills/ad-p99-analysis/scripts/state_performance.py": {
+      "sha256": "502c83553bdbe5db913293574271848b9b424999d53aaf8d9e07317e24254f05",
+      "bytes": 18699
+    },
+    "workspace/.agents/skills/ad-p99-analysis/settings.json.example": {
+      "sha256": "85c0ab21fe247b230f31a708cd5499b1410b5c0eac36ead9a570216d9a58377f",
+      "bytes": 935
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_ad_p99.py": {
+      "sha256": "e9a91f0d7c483f1356121e7bbe6a7f36f56e951529d005f4b908a124d14ec11c",
+      "bytes": 29220
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_asgard_overlap.py": {
+      "sha256": "b3f05f4a079006d83974acc63de4dcd1b97c7c5ba86092a2f5163410a905bb50",
+      "bytes": 26086
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_asgard_worker.py": {
+      "sha256": "6766996b97d5a1b0ba074268528fe1ade323759acc8da396c5d3cde55b2eb4b8",
+      "bytes": 37119
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_cloud_response_contract.py": {
+      "sha256": "e929c8376d6690de3c0526be09782ce3b77f0d203fc0ea433f9822fc03a03775",
+      "bytes": 2531
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_environment.py": {
+      "sha256": "b3315eac6215279017d1591506e72d5ec21795e063f1d3d1b7c58500646a3ae2",
+      "bytes": 1554
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_feishu_report.py": {
+      "sha256": "4c3dfb02eef1d77ef189946dcc2e4634538ace04dc8bde7b3cb73a80cca283a7",
+      "bytes": 6751
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_half_auto.py": {
+      "sha256": "90c9683055fc08704b28d1f1978f6f60cdababbaf34e265863ee3248dcc11606",
+      "bytes": 11351
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_lark_auth_lock.py": {
+      "sha256": "d12c823c305b300fb263dd9946921eeab0b92655cad11ce694297ddd095a6e23",
+      "bytes": 3300
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_lark_source.py": {
+      "sha256": "a90937c6b0b427892cf676a008d88d0ecbf7e6a722d050d099e54a4cb9522256",
+      "bytes": 13132
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_performance_comparison.py": {
+      "sha256": "b62ba5cd7f0e7109c4154dacf5030db912fec7ce19fb4bf5f1c06d5d202da011",
+      "bytes": 7645
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_performance_log_source.py": {
+      "sha256": "d28e4a752abaf54d4ae6dbbde95ce73055d3e3760e217015a4aa027ca8d1c0f1",
+      "bytes": 6428
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_performance_snapshot.py": {
+      "sha256": "c310d9f26ef66e5166424e53e9f6c7b3f9966e93f033cfaed163f0b879638c16",
+      "bytes": 11052
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_runtime_safety.py": {
+      "sha256": "58eaa0de8b7ce9b889ea6527991a6a037bcdb3d45551e6669bce3f4f76311f4f",
+      "bytes": 19865
+    },
+    "workspace/.agents/skills/ad-p99-analysis/tests/test_state_performance.py": {
+      "sha256": "918f623f4353bb52391c62fc25a996a1bd5b645ee2e7ae44e9ebd98d7ea55cc7",
+      "bytes": 6497
+    },
+    "workspace/.agents/skills/chassis-business-routing/references/conversation-interaction.md": {
+      "sha256": "dd313eb6f77723feab95baaa4bea49fecfd32bb10ad70e4eb2827ce648c47dde",
+      "bytes": 6718
+    },
+    "workspace/.agents/skills/chassis-business-routing/references/input-normalization.md": {
+      "sha256": "4f41cfe5dfab864de78e2a078934d2a87faab00d6ea207853abe1d49ed3cf47e",
+      "bytes": 1872
+    },
+    "workspace/.agents/skills/chassis-business-routing/references/semantic-input.md": {
+      "sha256": "f073036eb50b417bfc0c868f1394df3ad7bc2c23ec6d7e61f146856366829585",
+      "bytes": 5656
+    },
+    "workspace/.agents/skills/chassis-business-routing/scripts/intent_router.py": {
+      "sha256": "c21835a76ff2b3a9b9b0d8bd42d9ed2dfc14286f23cc2144d3b4e24f953a412b",
+      "bytes": 17771
+    },
+    "workspace/.agents/skills/chassis-business-routing/scripts/natural_input.py": {
+      "sha256": "671f82618b792d7fd7627bfcaae473e54aebe3441ae7d62e7f3f6df5fed950a5",
+      "bytes": 24339
+    },
+    "workspace/.agents/skills/chassis-business-routing/scripts/semantic_input.py": {
+      "sha256": "1bfc8e77f5c9a216bbf6a8f31669b02796f2cf3a40fb48a2d5b49ad9ec5ccc0c",
+      "bytes": 8608
+    },
+    "workspace/.agents/skills/chassis-business-routing/scripts/test_natural_input.py": {
+      "sha256": "08c4a66cbd7574ab45b8463e42b1d3b3864e24f43953abf918c78245890775ee",
+      "bytes": 16618
+    },
+    "workspace/.agents/skills/uroad-cloud-report/scripts/ccconnect_request_context.py": {
+      "sha256": "cac21e1618424c48ff8001cf7b68cc2c2051f136dbfa8a7fd7d9a075a51fe9c5",
+      "bytes": 3291
+    },
+    "workspace/AGENTS.md": {
+      "sha256": "dcf1ba5df6a6214b0cad3d00e7394125daf496d008d5fa2ea1ce0a8f65e51958",
+      "bytes": 1152
+    },
+    "workspace/deployment/feishu_auth_maintenance.py": {
+      "sha256": "b434fe9790c61ce6e598e0d29b47f356cebb5ccf72007b420105a748f5d932e9",
+      "bytes": 34067
+    },
+    "workspace/deployment/feishu_project_oauth.py": {
+      "sha256": "b249cb8cf39225a8c4e994d5da15e13e4412d695385dafb6e34e3fb04839c03b",
+      "bytes": 12531
+    },
+    "workspace/deployment/lark_auth_alerts.py": {
+      "sha256": "17be8236d03a74818d3d4d898ad35e11fe0407b83d0b91d5c7023394faaaa415",
+      "bytes": 12608
+    },
+    "workspace/deployment/lark_auth_lock.py": {
+      "sha256": "c612ba20588a1e978d754e693308268086a3e0f4b618f5b18278fefb351819ec",
+      "bytes": 4452
+    },
+    "workspace/deployment/lark_auth_store.py": {
+      "sha256": "4376e8a17c83baa6bd64efba455d99416e2c74909fe485500c5cc4f12be24e2f",
+      "bytes": 13467
+    },
+    "workspace/deployment/refresh-feishu-user-auth.ps1": {
+      "sha256": "8755eebf721b779c83d1bff8ed7c420b72f7fd35745cf7589b04e13afc748d71",
+      "bytes": 1139
+    },
+    "workspace/deployment/tests/test_feishu_auth_maintenance.py": {
+      "sha256": "027b38ee0a229ce68eaec93f2b5a03420abf1751546a8053f3c387a45bc183f9",
+      "bytes": 31994
+    },
+    "workspace/deployment/tests/test_feishu_project_oauth.py": {
+      "sha256": "50edf50b31151c3cf9d298ffdfc08aa1455520b4598e98ce4219216a811943ef",
+      "bytes": 15851
+    },
+    "workspace/deployment/tests/test_lark_auth_alerts.py": {
+      "sha256": "b7869fafa4142b9e1e1d5e21d02276ce4272cdf4d00ed7fb489c9d899a39d78e",
+      "bytes": 12734
+    },
+    "workspace/deployment/tests/test_lark_auth_store.py": {
+      "sha256": "e9382a4e6ae19d2a231c905baec3c750edb9d7fef7bbd158206bf62a1bc98d09",
+      "bytes": 13709
+    }
+  }
+}

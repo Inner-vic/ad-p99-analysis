@@ -1,0 +1,31 @@
+{
+  "archive_version": "2026.11.04.archive1",
+  "production_source_files": {
+    "workspace/.agents/skills/ad-p99-analysis/scripts/ad_p99.py": "cbfab4ed908784206b3244f4b6a255f335cea1bb81de4ac545a84d11e8eb5613",
+    "workspace/.agents/skills/ad-p99-analysis/scripts/asgard_bridge.py": "f24b5dbc44527d9d61c45da2ebac6b1522386f46a8b2af45478543c7540b5bb5",
+    "workspace/.agents/skills/ad-p99-analysis/scripts/asgard_worker.py": "f0e542cf51993bb96a01b9dbbbe4602b2309920329dc69dac431f2b5a6617731",
+    "workspace/.agents/skills/ad-p99-analysis/scripts/check_environment.py": "98be7d6f38929ca53ecf4a36f341b3f2e1d669986d79c98cfac3a3352d2be7cf",
+    "workspace/.agents/skills/ad-p99-analysis/scripts/cloud_log_client.py": "c4ab1e120852960a9c35bb165c7fa8f0a6a3fff71c63f689d6d007a9c30f451b",
+    "workspace/.agents/skills/ad-p99-analysis/scripts/feishu_report.py": "297db1385fdd043ef071e7f305852f01eddfa31db5e8266089ef33b40314a291",
+    "workspace/.agents/skills/ad-p99-analysis/scripts/half_auto.py": "75aa1e86e675d5a5d7617e0c2f929131cbd9f884f13801a8d76ede8716daecf7",
+    "workspace/.agents/skills/ad-p99-analysis/scripts/lark_source.py": "840f665447d62f9d5a45e61dd415e321883657c16e91d8e31a9039054a135dbc",
+    "workspace/.agents/skills/ad-p99-analysis/scripts/performance_comparison.py": "aafd21f1618a7c8e10f9fa872216244c263dddedd57f82e3a0d68255c7ecb3db",
+    "workspace/.agents/skills/ad-p99-analysis/scripts/performance_log_source.py": "b11089cc95b018ec418fdcca42b3095c6100c0ea46617267d8aaec549b41d386",
+    "workspace/.agents/skills/ad-p99-analysis/scripts/state_performance.py": "502c83553bdbe5db913293574271848b9b424999d53aaf8d9e07317e24254f05"
+  },
+  "production_modules_byte_identical": true,
+  "excluded": [
+    "credentials",
+    "task state",
+    "logs",
+    "reports",
+    "pycache",
+    "legacy OpenClaw deployment guide"
+  ],
+  "adaptations": [
+    "test fixtures use synthetic VINs",
+    "settings examples use deployment placeholders",
+    "requirements additionally pins transitive et-xmlfile"
+  ],
+  "production_deployment_changed": false
+}

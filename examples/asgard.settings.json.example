@@ -1,0 +1,21 @@
+{
+  "asgard_open_id": "ou_replace_with_asgard_bot_open_id",
+  "asgard_platform": "perf-m100-ultra",
+  "lark_cli": "D:/AD-P99/tools/lark-cli/lark-cli.exe",
+  "project_isolation_required": true,
+  "project_id": "ad-p99",
+  "lark_home": "D:/AD-P99/private/lark-home",
+  "expected_lark_app_id": "cli_replace_with_expected_app_id",
+  "expected_dispatch_open_id": "ou_replace_with_dispatch_user_open_id",
+  "lark_profile": "ad-p99-user",
+  "report_lark_profile": "ad-p99-report-bot",
+  "state_dir": "D:/AD-P99/data/ad-p99/jobs",
+  "runtime_state_dir": "D:/AD-P99/data/ad-p99/runtime",
+  "identity": "user",
+  "report_parent_token": "fld_replace_with_bot_owned_feishu_folder",
+  "report_parent_position": "my_library",
+  "card_timeout_seconds": 900,
+  "vehicle_version_timeout_seconds": 120,
+  "poll_backoff_seconds": 2,
+  "auth_credential_replica_path": "D:/AD-P99/private/lark-home/.lark-cli/credential-replica.json"
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "ad-p99-export-validation-v1",
+  "version": "2026.11.04.archive1",
+  "date": "2026-11-04",
+  "offline_full_suite": {
+    "status": "passed",
+    "tests": 329,
+    "passed": 328,
+    "skipped": 1,
+    "failures": 0,
+    "errors": 0,
+    "groups": {
+      "ad": 199,
+      "auth": 92,
+      "input": 38
+    },
+    "skip_reason": "Windows symlink creation privilege unavailable in optional path-security case"
+  },
+  "production_modules": {
+    "count": 11,
+    "byte_identical_to_source": true
+  },
+  "new_environment_online_end_to_end_verified": false,
+  "business_jobs_created": 0,
+  "authorization_started": false,
+  "live_asgard_messages_sent": 0,
+  "relocated_candidate": {
+    "status": "passed",
+    "fresh_venv": true,
+    "worker_import": "passed",
+    "dependencies_installed": false,
+    "authorization_started": false,
+    "business_jobs_created": 0
+  },
+  "checks": {
+    "powershell_syntax": "passed",
+    "private_data_scan": "passed",
+    "local_links": "passed"
+  }
+}
