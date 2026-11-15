@@ -31,8 +31,8 @@
       "bytes": 1094
     },
     "README.md": {
-      "sha256": "e6e2078b1addb1bb07408251fb87434ab57e603e468eb05843b448db21b00685",
-      "bytes": 4527
+      "sha256": "602d88fb1d7b8fd82bfbb788fc7ff5e6e7f35eff717920075bf343a758d4598a",
+      "bytes": 3952
     },
     "SOURCE-MANIFEST.json": {
       "sha256": "67b914357089e6db7f59f2b022d57113ccdeb4b7d091a123d75b4180eabf892e",
@@ -53,6 +53,10 @@
     "docs/operations.md": {
       "sha256": "f0a8d562588f59bfeec3a4ac4ed91dea6861bb1c30fecc104918fd64d11ca515",
       "bytes": 1602
+    },
+    "docs/project-guide.md": {
+      "sha256": "3a25e803efbe6521d71674f6d32d7d34f8d1c5e963756e24df1144896a828121",
+      "bytes": 4708
     },
     "docs/validation-results.json": {
       "sha256": "7bd3974bd13b705d909a1cddce2a86f9ec0ba48d7ccb9082279eaf3204bd2573",
