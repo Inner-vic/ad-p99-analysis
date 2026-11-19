@@ -18,7 +18,7 @@
     "scripts/performance_log_source.py": "b11089cc95b018ec418fdcca42b3095c6100c0ea46617267d8aaec549b41d386",
     "scripts/state_performance.py": "502c83553bdbe5db913293574271848b9b424999d53aaf8d9e07317e24254f05",
     "settings.json.example": "85c0ab21fe247b230f31a708cd5499b1410b5c0eac36ead9a570216d9a58377f",
-    "SKILL.md": "0c4acce877b808449975633bec7963e6cc71c9180ca8c1c7ee1663d4394de1a6",
+    "SKILL.md": "76df4069388cf8614ecc02cee87f1153d7a006e422fe772b1ca022c3f1ee90ac",
     "tests/test_ad_p99.py": "e9a91f0d7c483f1356121e7bbe6a7f36f56e951529d005f4b908a124d14ec11c",
     "tests/test_asgard_overlap.py": "b3f05f4a079006d83974acc63de4dcd1b97c7c5ba86092a2f5163410a905bb50",
     "tests/test_asgard_worker.py": "6766996b97d5a1b0ba074268528fe1ade323759acc8da396c5d3cde55b2eb4b8",
@@ -34,5 +34,5 @@
     "tests/test_runtime_safety.py": "58eaa0de8b7ce9b889ea6527991a6a037bcdb3d45551e6669bce3f4f76311f4f",
     "tests/test_state_performance.py": "918f623f4353bb52391c62fc25a996a1bd5b645ee2e7ae44e9ebd98d7ea55cc7"
   },
-  "canonical_source_sha256": "1a052cae55dbafb4288c69af709ad6c35ca6154fec164aa76c70b1d397520647"
+  "canonical_source_sha256": "996b7340ad313db244d48cb30e3291cd738a688b1d9952b02aca98ba0ae79224"
 }
